@@ -41,7 +41,7 @@ input.addEventListener(
         return `<li>
         <img src="${country.flags.svg}" alt="Flag of ${
           country.name.official
-        }" width="30" hight="20">
+        }" width="30" height="20">
            <b>${country.name.official}</p>
                   </li>`;
       })
@@ -55,7 +55,7 @@ input.addEventListener(
             return `<li>
         <img src="${country.flags.svg}" alt="Flag of ${
               country.name.official
-            }" width="30" hight="20">
+            }" width="30" height="20">
            <b>${country.name.official}</b></p>
               <p><b>Capital</b>: ${country.capital}</p>
               <p><b>Population</b>: ${country.population}</p>
